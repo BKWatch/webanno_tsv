@@ -18,7 +18,7 @@ HEADERS = ['#FORMAT=WebAnno TSV 3.3']
 TOKEN_FIELDNAMES = ['sent_tok_idx', 'offsets', 'token']
 
 # Strings that need to be escaped with a single backslash according to Webanno Appendix B
-RESERVED_STRS = ['\\', '[', ']', '|', '_', '->', ';', '\t', '\n', '*']
+RESERVED_STRS = ['\t', '\n']
 
 # Mulitiline sentences are split on this character per Webanno Appendix B
 MULTILINE_SPLIT_CHAR = '\f'
