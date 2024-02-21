@@ -4,6 +4,7 @@ from .webanno_tsv import (
     Sentence,
     Annotation,
     Document,
+    Codec,
 
     NO_LABEL_ID,
 
